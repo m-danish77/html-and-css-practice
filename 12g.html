@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12g Challenge Exercise</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;
+      }
+      .sub-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+      }
+
+      .middle-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: 1;
+        margin-left: 10px;
+        row-gap: 4px;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .category,
+      .popularity {
+        font-size: 14px;
+        color: gray;
+      }
+
+      .popularity {
+        font-size: 14px;
+        color: gray;
+      }
+
+      button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub-container">
+        <img src="images/7g.jpg" alt="Image is missing" />
+        <div class="middle-container">
+          <div class="name">Oliver</div>
+          <div class="category">The Cat</div>
+          <div class="popularity">Popular</div>
+        </div>
+        <button>Follow</button>
+      </div>
+
+      <div class="sub-container">
+        <img src="images/7g.jpg" alt="Image is missing" />
+        <div class="middle-container">
+          <div class="name">Oliver</div>
+          <div class="category">The Cat</div>
+          <div class="popularity">Popular</div>
+        </div>
+        <button>Follow</button>
+      </div>
+
+      <div class="sub-container">
+        <img src="images/7g.jpg" alt="Image is missing" />
+        <div class="middle-container">
+          <div class="name">Oliver</div>
+          <div class="category">The Cat</div>
+          <div class="popularity">Popular</div>
+        </div>
+        <button>Follow</button>
+      </div>
+    </div>
+  </body>
+</html>
